@@ -3,23 +3,27 @@ h1 {
   font-family: 'Dancing Script', serif;
   font-size: 250%;
   text-align: center;
-  text-decoration: overline;
-  text-decoration-style: double;
 }
 h1.font-effect-outline {
-  color: rgb(84, 84, 84);
+  color: rgb(90, 90, 90);
+}
+.border{
+  color:rgb(130, 126, 125);
 }
 h4{
-  color:rgb(151, 151, 151);
+  color:rgb(184, 179, 157);
+}
+.dark{
+  color:rgb(109, 116, 113);
 }
 p {
-  color:rgb(151, 151, 151);
+  color:rgb(130, 126, 125);
   font-size: 95%;
   margin-bottom:0.5em;
 }
 body {
   font-family: 'Cinzel Decorative', serif;
-  background-image: url("background_.jpg");
+  background-image: url("https://big.justeasy.cn/large/tietu/202209/20220903100818_6312b712daa49.jpg?imageslim");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -28,12 +32,26 @@ body {
   display: table;
   margin: auto;
   text-align: left;
-  text-indent: -1.5em;
+  text-indent: -0.1em;
+}
+.decoration{
+  display:flex;
+  padding-left:1.4em;
+}
+.link{
+  display:flex;
+  font-family:'sofia',san-serif;
+  font-size:1.1em;
+  padding-left:3.7em;
+  color:rgb(151, 151, 151);
+}
+a:visited{
+  color:rgb(84, 84, 84);
 }
 .decoration::before {
   content: "౨ৎ";
-  color:rgb(151, 151, 151);
-  font-size: 1.1em;
+  color:rgb(145, 131, 131);
+  font-size: 1.2em;
   font-weight:450;
   margin-right: 0.6em;
   white-space:pre-wrap;
