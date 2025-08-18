@@ -1,0 +1,15 @@
+h1 {
+  text-decoration: underline;
+  color: rgb(151, 151, 151);
+  font-family:"Sofia", sans-serif;
+}
+h3{
+  color: rgb(151, 151, 151);
+  font-style: calc();
+}
+body {
+  font-family: "Sofia", sans-serif;
+  background-image: url("background_.jpg");
+  background-size：cover;
+  background-attachment:fixed;
+}
