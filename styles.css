@@ -1,15 +1,40 @@
 h1 {
-  text-decoration: underline;
-  color: rgb(151, 151, 151);
-  font-family:"Sofia", sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: 'Dancing Script', serif;
+  font-size: 250%;
+  text-align: center;
+  text-decoration: overline;
+  text-decoration-style: double;
 }
-h3{
-  color: rgb(151, 151, 151);
-  font-style: calc();
+h1.font-effect-outline {
+  color: rgb(84, 84, 84);
+}
+h4{
+  color:rgb(151, 151, 151);
+}
+p {
+  color:rgb(151, 151, 151);
+  font-size: 95%;
+  margin-bottom:0.5em;
 }
 body {
-  font-family: "Sofia", sans-serif;
+  font-family: 'Cinzel Decorative', serif;
   background-image: url("background_.jpg");
-  background-size：cover;
-  background-attachment:fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.align {
+  display: table;
+  margin: auto;
+  text-align: left;
+  text-indent: -1.5em;
+}
+.decoration::before {
+  content: "౨ৎ";
+  color:rgb(151, 151, 151);
+  font-size: 1.1em;
+  font-weight:450;
+  margin-right: 0.6em;
+  white-space:pre-wrap;
 }
