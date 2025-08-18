@@ -54,10 +54,10 @@ body {
   font-family:'sofia',san-serif;
   font-size:1.1em;
   padding-left:3.7em;
-  color:rgb(151, 151, 151);
+  color:rgb(139, 123, 121);
 }
 a:visited{
-  color:rgb(84, 84, 84);
+  color:rgb(87,87,87);
 }
 .decoration::before {
   content: "౨ৎ";
