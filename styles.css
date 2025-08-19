@@ -35,6 +35,9 @@ h5{
 }
 body {
   font-family: 'Cinzel Decorative', serif;
+  background-image:"background_.jpg";
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .align {
