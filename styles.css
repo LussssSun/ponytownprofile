@@ -1,6 +1,6 @@
 h1 {
   font-family: "Dancing Script", serif;
-  font-size: 250%;
+  font-size: 400%;
   text-align: left;
   margin-top: 0.2em;
 }
@@ -9,7 +9,7 @@ h1.font-effect-outline {
 }
 .border {
   color: rgb(130, 126, 125);
-  font-size: 140%;
+  font-size: 190%;
   text-align: centre;
 }
 h2 {
@@ -19,11 +19,11 @@ h2 {
 .subtitle{
   font-family: "Cinzel Decorative", serif;
   color:rgb(176, 170, 170);
-  font-size: 130%;
+  font-size: 180%;
 }
 .line{
   color: rgb(141, 136, 126);
-  font-size: 115%;
+  font-size: 165%;
   line-height: 2.5em;
   margin-bottom: 0.3em;
 }
@@ -31,13 +31,13 @@ h2 {
   font-family:"Dancing Script", serif;
   color: rgb(141, 136, 126);
   text-align: right;
-  font-size: 115%;
+  font-size: 165%;
   line-height: 2.5em;
   margin-bottom: 0.3em;
 }
 .emphasis{
   font-family: "Cinzel Decorative", serif;
-  font-size: 130%;
+  font-size: 180%;
   color:rgba(255, 215, 202, 0.6);
   text-decoration: underline;
   text-decoration-style: double;
@@ -49,7 +49,7 @@ h2 {
 p {
   font-family: "playball", serif;
   color: rgb(167, 155, 153);
-  font-size: 110%;
+  font-size: 160%;
   letter-spacing: 0.08em;
   word-spacing: 0.15em;
   margin-bottom: 0.2em;
