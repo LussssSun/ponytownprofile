@@ -1,69 +1,100 @@
 h1 {
-  font-family: 'Dancing Script', serif;
+  font-family: "Dancing Script", serif;
   font-size: 250%;
   text-align: left;
-  margin-top:0.2em;
+  margin-top: 0.2em;
 }
 h1.font-effect-outline {
   color: rgb(95, 93, 93);
 }
-.border{
-  color:rgb(130, 126, 125);
-  font-size:140%;
+.border {
+  color: rgb(130, 126, 125);
+  font-size: 140%;
+  text-align: centre;
 }
-h2{
-  color:rgb(139, 123, 121);
-  margin-top:0.1em;
+h2 {
+  color: rgb(139, 123, 121);
+  margin-top: 0.1em;
 }
-
-h4{
-  color:rgb(184, 179, 157);
+.subtitle{
+  font-family: "Cinzel Decorative", serif;
+  color:rgb(176, 170, 170);
+  font-size: 130%;
 }
-.dark{
-  color:rgb(109, 116, 113);
-  padding-left:8em;
+.line{
+  color: rgb(141, 136, 126);
+  font-size: 115%;
+  line-height: 2.5em;
+  margin-bottom: 0.3em;
+}
+.line_{
+  font-family:"Dancing Script", serif;
+  color: rgb(141, 136, 126);
+  text-align: right;
+  font-size: 115%;
+  line-height: 2.5em;
+  margin-bottom: 0.3em;
+}
+.emphasis{
+  font-family: "Cinzel Decorative", serif;
+  font-size: 130%;
+  color:rgba(255, 215, 202, 0.6);
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+.dark {
+  color: rgb(149, 154, 152);
+  padding-left: 8em;
 }
 p {
-  color:rgb(130, 126, 125);
-  font-size: 100%;
-  margin-bottom:0.5em;
+  font-family: "playball", serif;
+  color: rgb(167, 155, 153);
+  font-size: 110%;
+  letter-spacing: 0.08em;
+  word-spacing: 0.15em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
-h5{
-  color:rgb(131, 119, 114);
-  margin-top:0.1em;
-  margin-bottom:3em;
-}
-body {
-  font-family: 'Cinzel Decorative', serif;
-  background-image:url("background_.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+h5 {
+  color: rgb(131, 119, 114);
+  margin-top: 0.1em;
+  margin-bottom: 3em;
 }
 
+.decoration {
+  display: flex;
+  padding-left: 1.4em;
+}
+.decoration::before {
+  content: "౨ৎ";
+  color: rgb(145, 131, 131);
+  font-size: 1.2em;
+  font-weight: 450;
+  margin-right: 0.6em;
+}
 .align {
   display: table;
   margin: auto;
   text-align: left;
   text-indent: -0.1em;
 }
-.decoration{
-  display:flex;
-  padding-left:1.4em;
+
+.link {
+  display: flex;
+  font-family: "sofia", san-serif;
+  font-size: 1.1em;
+  padding-left: 3.7em;
+  color: rgb(139, 123, 121);
 }
-.link{
-  display:flex;
-  font-family:'sofia',san-serif;
-  font-size:1.1em;
-  padding-left:3.7em;
-  color:rgb(139, 123, 121);
+a:visited {
+  color: rgb(87, 87, 87);
 }
-a:visited{
-  color:rgb(87,87,87);
-}
-.decoration::before {
-  content: "౨ৎ";
-  color:rgb(145, 131, 131);
-  font-size: 1.2em;
-  font-weight:450;
-  margin-right: 0.6em;
+
+
+
+body {
+  font-family: 'Cinzel Decorative', serif;
+  background-image:url("background_.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
