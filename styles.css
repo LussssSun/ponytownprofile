@@ -11,6 +11,8 @@ h1.font-effect-outline {
   color: rgb(130, 126, 125);
   font-size: 190%;
   text-align: centre;
+  word-break: break-word;
+  white-space: normal;
 }
 h2 {
   color: rgb(139, 123, 121);
@@ -26,6 +28,8 @@ h2 {
   font-size: 165%;
   line-height: 2.5em;
   margin-bottom: 0.3em;
+  word-break: break-word;
+  white-space: normal;
 }
 .line_{
   font-family:"Dancing Script", serif;
@@ -34,6 +38,8 @@ h2 {
   font-size: 165%;
   line-height: 2.5em;
   margin-bottom: 0.3em;
+  word-break: break-word;
+  white-space: normal;
 }
 .emphasis{
   font-family: "Cinzel Decorative", serif;
